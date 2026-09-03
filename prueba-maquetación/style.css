@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  align-items: center;
+  background-color: hsl(0, 0%, 50%);
+  display: flex;
+  height: 7vh;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+}
+
+.logo-imagen svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.logo-title h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Changa One", sans-serif;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.user-area {
+  display: flex;
+  gap: 1rem;
+}
+
+.sign-up {}
+
+.login {}
+
+main {}
+
+.hero {
+  min-height: 93vh;
+  max-height: 93vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-image {
+  position: absolute;
+  width: 100%;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.hero-call-to-action {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  left: 5%;
+  position: absolute;
+  top: 30%;
+  z-index: 1001;
+}
+
+.hero-title {}
+
+.hero-description {}
+
+.hero-button {}
+
+.information-cards {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 10%;
+}
+
+.information-card {}
+
+.information-card-title {}
+
+.information-card-description {}
+
+.card-title {}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+  margin: 2rem;
+}
+
+.card-title {}
+
+
+.information-card {
+  background-color: rgba(128, 128, 128, 0.473);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.card-description {}
+
+.panels {
+  padding: 1rem 5rem;
+}
+
+.panels-title {}
+
+.panel summary {
+  background-color: hsla(0, 0%, 50%, 0.692);
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.panel-title {}
+
+.panel-description {}
+
+.contact-form {
+  align-items: center;
+  background-color: hsl(0, 0%, 96%);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 5rem;
+}
+
+.form-title h2 {
+  font-family: "Changa One", sans-serif;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.form-element {
+  margin: 1rem;
+}
+
+.form-element-input input,
+.form-element-input textarea {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.form-button button {
+  background-color: hsl(0, 0%, 50%);
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.form-map {
+  width: 100%;
+}
+
+.form-map iframe {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+form {
+  display: flex;
+  gap: 3rem;
+}
+
+.form-fields {}
+
+.form-map {}
+
+.form-element {}
+
+.form-element-label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.form-element-input {}
+
+.form-button {}
+
+footer {
+  background-color: hsla(0, 0%, 100%, 0.521);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem 10rem;
+  align-items: normal;
+}
+
+.footer-column {}
+
+.footer-column-image {}
+
+.pages-title {}
+
+.pages-list {}
+
+.footer-column-subscribe {}
+
+form {}
+
+.footer-column-input {}
+
+.footer-column-button {}
+
+.footer-column-label {}
+
+.footer-logo {}
+
+.social-title {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.social-list {}
