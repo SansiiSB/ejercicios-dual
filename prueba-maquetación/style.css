@@ -136,6 +136,10 @@ main {}
   margin: 2rem;
 }
 
+.card-img-adventages {
+  width: 86%;
+}
+
 .card-title {}
 
 
@@ -205,7 +209,7 @@ main {}
 }
 
 .form-map iframe {
-  width: 100%;
+  width: 160%;
   border-radius: 1rem;
 }
 
@@ -215,8 +219,6 @@ form {
 }
 
 .form-fields {}
-
-.form-map {}
 
 .form-element {}
 
