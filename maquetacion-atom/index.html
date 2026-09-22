@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="./src/index.js"></script>
+  <title>AtomGPT</title>
+</head>
+
+<body>
+  <main>
+    <welcome-component></welcome-component>
+    <prompt-input-component></prompt-input-component>
+  </main>
+
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-header-title">
+        <logo-component></logo-component>
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+            <title>page-layout-sidebar-right</title>
+            <path d="M6,2H18A2,2 0 0,1 20,4V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V4A2,2 0 0,1 6,2M14,8V16H18V8H14Z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="sidebar-content">
+      <menu-component></menu-component>
+      <recent-chats-component></recent-chats-component>
+      <user-component></user-component>
+    </div>
+  </aside>
+</body>
+
+</html>

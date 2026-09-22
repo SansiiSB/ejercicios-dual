@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
-  <script type="module" src="/ejercicios-dual/prueba-maquetación/prueba-button/index.js"></script>
+  <script type="module" src="./index.js"></script>
 </head>
 
 <body>
@@ -24,6 +24,16 @@
     <button class="login-button" type="submit">Ingresar</button>
     <button class="cancel-button" type="button">Cancelar</button>
   </form>
+
+  <div class="notification-success notification-hidden">
+    <p>Login realizado correctamente</p>
+    <button class="close-notification-button" type="button">Cerrar</button>
+  </div>
+
+  <div class="notification-error notification-hidden">
+    <p>Login incorrecto</p>
+    <button class="close-notification-button" type="button">Cerrar</button>
+  </div>
 </body>
 
 </html>
