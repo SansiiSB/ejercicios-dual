@@ -3,10 +3,77 @@ class RecentChats extends HTMLElement {
   constructor() {
     super()
     this.shadow = this.attachShadow({ mode: 'open' })
+    this.data = []
   }
 
   connectedCallback() {
+    this.loadData()
     this.render()
+  }
+
+  loadData() {
+    this.data = [
+      {
+        name: 'Revisar barra de búsqueda',
+        url: '#',
+      },
+      {
+        name: 'Pueblos bonitos de Mallorca',
+        url: '#',
+      },
+      {
+        name: 'Ajustar botón CTA CSS',
+        url: '#',
+      },
+      {
+        name: 'Transferir dinero a Santander',
+        url: '#',
+      },
+      {
+        name: 'Mejorar calidad imagen',
+        url: '#',
+      },
+      {
+        name: 'Sangrado nasal leve',
+        url: '#',
+      },
+      {
+        name: 'Problema batería coche',
+        url: '#',
+      },
+      {
+        name: 'Postcreditos Insidious',
+        url: '#',
+      },
+      {
+        name: 'Hip trust, gluteos y pierna',
+        url: '#',
+      },
+      {
+        name: 'Reserva restaurante cumpleaños',
+        url: '#',
+      },
+      {
+        name: 'Dudas examen CSS',
+        url: '#',
+      },
+      {
+        name: 'Plan de entrenamiento semanal',
+        url: '#',
+      },
+      {
+        name: 'Receta de lentejas rápida',
+        url: '#',
+      },
+      {
+        name: 'Cómo hacer curriculum',
+        url: '#',
+      },
+      {
+        name: 'Traducir email al inglés',
+        url: '#',
+      }
+    ]
   }
 
   render() {
@@ -46,25 +113,20 @@ class RecentChats extends HTMLElement {
         <div class="recent-chats-container">
           <h2>Recientes</h2>
           <nav>
-            <a href="#">Revisar barra de búsqueda</a>
-            <a href="#">Pueblos bonitos de Mallorca</a>
-            <a href="#">Ajustar botón CTA CSS</a>
-            <a href="#">Transferir dinero a Santander</a>
-            <a href="#">Mejorar calidad imagen</a>
-            <a href="#">Sangrado nasal leve</a>
-            <a href="#">Problema batería coche</a>
-            <a href="#">Postcreditos Insidious</a>
-            <a href="#">Hip trust, gluteos y pierna</a>
-            <a href="#">Reserva restaurante cumpleaños</a>
-            <a href="#">Dudas examen CSS</a>
-            <a href="#">Plan de entrenamiento semanal</a>
-            <a href="#">Receta de lentejas rápida</a>
-            <a href="#">Cómo hacer curriculum</a>
-            <a href="#">Traducir email al inglés</a>
           </nav>
         </div>
     </section>
     `
+
+    const nav = this.shadow.querySelector('nav')
+
+    this.data.forEach(chat => {
+      const link = document.createElement('a')
+      link.href = chat.url
+      link.textContent = chat.name
+      nav.appendChild(link)
+    })
+
   }
 }
 
