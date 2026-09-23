@@ -1,5 +1,5 @@
 export default (() => {
-  const buttonSidebarClose = document.querySelector(".sidebar-header-title button");
+  const buttonSidebarClose = document.querySelector("button-component");
   const sidebar = document.querySelector(".sidebar");
 
   buttonSidebarClose.addEventListener("click", () => {

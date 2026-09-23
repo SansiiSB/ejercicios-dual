@@ -19,18 +19,6 @@ class Logo extends HTMLElement {
         justify-content: space-between;
       }
 
-      .sidebar-header-title button {
-        background: transparent;
-        border: none;
-        color: hsl(0, 0%, 100%);
-        cursor: pointer;
-      }
-
-      .sidebar-header-title button svg {
-        width: 1rem;
-        height: 1rem;
-      }
-
       .sidebar-header-title a {
         color: hsl(0, 0%, 100%);
         text-decoration: none;
